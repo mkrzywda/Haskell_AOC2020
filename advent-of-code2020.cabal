@@ -4,16 +4,16 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 9a9a1ce4640230f794448d2c09b8840d93e8c7ac8f8cf7597d39d69947201150
+-- hash: 777910fc7d51b04fc5d6c77e10714cc0531348d65528e0b0c527258f42cd46b5
 
 name:           advent-of-code2020
 version:        0.1.0.0
 description:    Please see the README on GitHub at <https://github.com/githubuser/advent-of-code2020#readme>
 homepage:       https://github.com/githubuser/advent-of-code2020#readme
 bug-reports:    https://github.com/githubuser/advent-of-code2020/issues
-author:         Author name here
+author:         Maciej Krzywda
 maintainer:     example@example.com
-copyright:      2020 Author name here
+copyright:      2020 Maciej Krzywda
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
@@ -28,6 +28,7 @@ source-repository head
 library
   exposed-modules:
       Day01
+      Day02
       Lib
   other-modules:
       Paths_advent_of_code2020

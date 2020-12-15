@@ -7,9 +7,10 @@ import System.Environment (getArgs)
 import Text.Read (readMaybe)
 
 import Day01
+import Day02
 
 
-currentDay = doDay1
+currentDay = doDay02
 
 main :: IO ()
 main = do
@@ -17,7 +18,8 @@ main = do
   case args of
     [] -> currentDay
     [dayNumber] -> case readMaybe dayNumber of
-      Just 1 -> doDay1
+      Just 1 -> doDay01
+      Just 2 -> doDay02
       Just _ -> putStrLn "I haven't implemented that day yet!"
       Nothing -> putStrLn "That's not a number!"
     _ -> putStrLn "Please enter a day number!"
