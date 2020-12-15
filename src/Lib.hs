@@ -1,6 +1,8 @@
 module Lib
-    ( someFunc
+    ( intList
     ) where
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+import Data.List ( sort , nub)
+
+intList :: String -> [Int]
+intList = map read . lines
