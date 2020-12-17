@@ -1,6 +1,17 @@
 # Advent of Code 2020 #
 
+### Run last day ###
+```haskell
+stack run 
+```
+
+### Run selected day ###
+```haskell
+stack run n  -- where n is day number.
+```
+
 ### Days Solutions in Haskell ###
+
 
 * [Main](app/Main.hs)
 * [Day 1](src/day01.hs) | [Puzzle: Part A](in/day01_part_a) | [Puzzle: Part B](in/day01_part_b)
